@@ -1,9 +1,4 @@
-# run:
-# chmod +x setup_ml_env.sh
-# ./setup_ml_env.sh
-
-# then activate
-# source ml-env/bin/activate
+#!/bin/bash
 
 set -e
 

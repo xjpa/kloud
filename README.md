@@ -1,0 +1,1 @@
+toy projects and exercises for cloud, devops, and mlops

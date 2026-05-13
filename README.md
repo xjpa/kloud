@@ -6,6 +6,8 @@ DevOps, Cloud & MLOps Lab Portfolio
 /aws
 ```
 
+amazon web services (AWS)
+
 1. foundational primitives
 2. ec2 storage lifectycle
 3. iam access control
@@ -19,6 +21,8 @@ DevOps, Cloud & MLOps Lab Portfolio
 /devops
 ```
 
+software development and IT operations (DevOps)
+
 1. linux sysadmin
 2. git collaboration
 3. docker
@@ -30,6 +34,8 @@ DevOps, Cloud & MLOps Lab Portfolio
 ```
 /mlops
 ```
+
+machine learning operations (MLOps)
 
 1. ml project foundations
 2. data versioning

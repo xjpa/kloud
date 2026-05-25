@@ -1,8 +1,16 @@
+```
+Day 2: Set Up and Configure Jupyter Notebook Server
+```
+
+# Lesson
+
+IMO biggest lesson was verifying if the service is running with `ss -lntp | grep 8888` and checking if directories in the config exist
+
 # Solution
 
-Just edited the python config file
+Just edited the python config file 
 
-Then created the directory `mkdir -p /root/notebooks`
+Then created the directory `mkdir -p /root/notebooks` because apparently I got an error that it doesnt exist yet
 
 Then ran the command
 
@@ -23,12 +31,9 @@ And got the result
 `LISTEN 0 128 0.0.0.0:8888 0.0.0.0:* users:(("jupyter-lab",pid=4200,fd=6))`
 
 
-
 # Problem
 
-```
-Day 2: Set Up and Configure Jupyter Notebook Server
-```
+
 
 A teammate has configured a JupyterLab server for the xFusionCorp Industries data science team, but the server does not behave correctly. Inspect the configuration, diagnose the issues, and start the server.
 

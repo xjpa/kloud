@@ -1,3 +1,29 @@
+# Solution
+
+Just edited the python config file
+
+Then created the directory `mkdir -p /root/notebooks`
+
+Then ran the command
+
+
+```bash
+$ source /root/code/ml-env/bin/activate
+
+$ jupyter lab --config=/root/code/jupyter_lab_config.py --allow-root --no-browser &
+```
+
+Verified it with
+
+`ss -lntp | grep 8888`
+
+And got the result
+
+
+`LISTEN 0 128 0.0.0.0:8888 0.0.0.0:* users:(("jupyter-lab",pid=4200,fd=6))`
+
+
+
 # Problem
 
 ```
